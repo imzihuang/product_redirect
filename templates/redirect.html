@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Redirect</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div id="div_show"></div>
+<input id="red_val" type="hidden" value={{ pid }}>
+</body>
+<script>
+    $(function(){
+        var red_value = $("#red_val").val();
+        if (red_value == undefined || red_value == null || red_value == ""){
+            $("#div_show").text("Hello Word");
+            return false;
+        }
+        $.ajax({
+           type: "GET",
+           cache:false,
+           async : true,
+           dataType : "json",
+           url:  "/get_redirect",
+           data: {"name": red_value},
+           success: function(data){
+                var url = data.redirect_info.url;
+                var cur_time = data.redirect_info.cur_time;
+                var params = data.redirect_info.parameter;
+
+                var redirect_url = url+"?qid="+cur_time+params;
+                location.href = redirect_url;
+           }
+        });
+
+    })
+</script>
+</html>

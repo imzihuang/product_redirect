@@ -1,0 +1,132 @@
+2017-09-17 12:37:08,054 [INFO] [19777] [MainThread] Starting 4 processes
+2017-09-17 12:37:13,422 [ERROR] [19784] [MainThread] Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() takes exactly 2 arguments (1 given)
+2017-09-17 12:37:13,429 [ERROR] [19784] [MainThread] 500 GET / (127.0.0.1) 9.87ms
+2017-09-17 12:37:28,589 [ERROR] [19784] [MainThread] Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() takes exactly 2 arguments (1 given)
+2017-09-17 12:37:28,604 [ERROR] [19784] [MainThread] 500 GET / (127.0.0.1) 15.52ms
+2017-09-17 12:37:54,186 [INFO] [19791] [MainThread] Starting 4 processes
+2017-09-17 12:38:07,773 [ERROR] [19796] [MainThread] Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() takes exactly 2 arguments (1 given)
+2017-09-17 12:38:07,798 [ERROR] [19796] [MainThread] 500 GET / (127.0.0.1) 6760.89ms
+2017-09-17 12:38:27,044 [ERROR] [19796] [MainThread] Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() takes exactly 2 arguments (1 given)
+2017-09-17 12:38:27,050 [ERROR] [19796] [MainThread] 500 GET / (127.0.0.1) 8173.52ms
+2017-09-17 12:38:59,900 [ERROR] [19796] [MainThread] Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() takes exactly 2 arguments (1 given)
+2017-09-17 12:38:59,906 [ERROR] [19796] [MainThread] 500 GET / (127.0.0.1) 8191.22ms
+2017-09-17 12:39:36,390 [WARNING] [19791] [MainThread] child 0 (pid 19795) killed by signal 9, restarting
+2017-09-17 12:40:23,454 [INFO] [19807] [MainThread] Starting 4 processes
+2017-09-17 12:40:27,638 [ERROR] [19811] [MainThread] Uncaught exception GET / (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() takes exactly 2 arguments (1 given)
+2017-09-17 12:40:27,655 [ERROR] [19811] [MainThread] 500 GET / (127.0.0.1) 2362.92ms
+2017-09-17 12:40:43,608 [ERROR] [19811] [MainThread] Uncaught exception GET /21345678 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/21345678', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() got an unexpected keyword argument 'id_'
+2017-09-17 12:40:43,613 [ERROR] [19811] [MainThread] 500 GET /21345678 (127.0.0.1) 8.06ms
+2017-09-17 12:40:46,366 [ERROR] [19811] [MainThread] Uncaught exception GET /21345678 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/21345678', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() got an unexpected keyword argument 'id_'
+2017-09-17 12:40:46,369 [ERROR] [19811] [MainThread] 500 GET /21345678 (127.0.0.1) 3.71ms
+2017-09-17 12:41:02,402 [INFO] [19820] [MainThread] Starting 4 processes
+2017-09-17 12:41:05,416 [ERROR] [19827] [MainThread] Uncaught exception GET /21345678 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/21345678', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() got an unexpected keyword argument 'id_'
+2017-09-17 12:41:05,421 [ERROR] [19827] [MainThread] 500 GET /21345678 (127.0.0.1) 8.40ms
+2017-09-17 12:41:21,296 [ERROR] [19827] [MainThread] Uncaught exception GET /21345678 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/21345678', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: get() got an unexpected keyword argument 'id_'
+2017-09-17 12:41:21,299 [ERROR] [19827] [MainThread] 500 GET /21345678 (127.0.0.1) 2956.72ms
+2017-09-17 12:42:13,618 [WARNING] [19827] [MainThread] 404 GET /manage.t (127.0.0.1) 1.85ms
+2017-09-17 12:42:19,450 [INFO] [19827] [MainThread] 200 GET /manage.html (127.0.0.1) 21.63ms
+2017-09-17 12:42:19,577 [INFO] [19826] [MainThread] 200 GET /css/bootstrap-table.min.css (127.0.0.1) 54.89ms
+2017-09-17 12:42:19,595 [INFO] [19826] [MainThread] 200 GET /js/bootstrap-table.min.js (127.0.0.1) 11.56ms
+2017-09-17 12:42:19,595 [INFO] [19827] [MainThread] 200 GET /css/bootstrap.min.css (127.0.0.1) 69.65ms
+2017-09-17 12:42:19,610 [INFO] [19827] [MainThread] 200 GET /js/bootstrap.min.js (127.0.0.1) 8.90ms
+2017-09-17 12:42:19,624 [INFO] [19825] [MainThread] 200 GET /js/jquery-1.11.1.min.js (127.0.0.1) 105.53ms
+2017-09-17 12:42:19,636 [INFO] [19827] [MainThread] 200 GET /css/bootstrap-theme.min.css (127.0.0.1) 12.01ms
+2017-09-17 12:42:19,641 [INFO] [19825] [MainThread] 200 GET /js/docs.min.js (127.0.0.1) 13.01ms
+2017-09-17 12:42:19,911 [INFO] [19825] [MainThread] 200 GET /css/bootstrap.min.css.map (127.0.0.1) 21.24ms
+2017-09-17 12:42:19,914 [INFO] [19827] [MainThread] 200 GET /css/bootstrap-theme.min.css.map (127.0.0.1) 18.23ms
+2017-09-17 12:42:20,013 [INFO] [19825] [MainThread] 200 GET /fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 6.12ms
+2017-09-17 12:42:21,260 [ERROR] [19825] [MainThread] like query product error: OperationalError('(_mysql_exceptions.OperationalError) (2003, "Can\'t connect to MySQL server on \'127.0.0.1\' (61)")',)
+2017-09-17 12:42:21,267 [INFO] [19825] [MainThread] 200 GET /get_data?limit=10&offset=0&url=&_=1505623339682 (127.0.0.1) 1216.97ms
+2017-09-17 12:42:45,299 [INFO] [19834] [MainThread] Starting 4 processes
+2017-09-17 12:43:29,526 [INFO] [19858] [MainThread] Starting 4 processes
+2017-09-17 12:43:32,808 [WARNING] [19865] [MainThread] 404 GET /manage.t (127.0.0.1) 2.89ms
+2017-09-17 12:43:37,794 [ERROR] [19865] [MainThread] Uncaught exception GET /21345678 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9090', method='GET', uri='/21345678', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:9090', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': '_xsrf=2|083de166|41c79d9d4e18c2359fc270bfdd724d1b|1505560292', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': '1'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1332, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/imzihuang/PycharmProjects/product_redirect/views.py", line 47, in get
+    self.render('redirect.html', pid=pid)
+NameError: global name 'pid' is not defined
+2017-09-17 12:43:37,805 [ERROR] [19865] [MainThread] 500 GET /21345678 (127.0.0.1) 4283.04ms
+2017-09-17 12:43:49,710 [INFO] [19871] [MainThread] Starting 4 processes
+2017-09-17 12:43:58,817 [INFO] [19878] [MainThread] 200 GET /21345678 (127.0.0.1) 6471.50ms
+2017-09-17 12:44:09,679 [INFO] [19878] [MainThread] 200 GET / (127.0.0.1) 4590.07ms
+2017-09-17 12:44:20,810 [INFO] [19880] [MainThread] Starting 4 processes
+2017-09-17 12:44:22,176 [INFO] [19887] [MainThread] 200 GET /21345678 (127.0.0.1) 18.68ms
+2017-09-17 12:44:23,658 [INFO] [19887] [MainThread] 200 GET /21345678 (127.0.0.1) 2.61ms
+2017-09-17 13:06:38,639 [INFO] [20124] [MainThread] Starting 4 processes
+2017-09-17 13:06:43,559 [WARNING] [20130] [MainThread] 404 GET /21345678 (127.0.0.1) 3.73ms
+2017-09-17 13:06:48,459 [WARNING] [20130] [MainThread] 404 GET /2134567812 (127.0.0.1) 2.52ms
+2017-09-17 13:06:55,014 [WARNING] [20130] [MainThread] 404 GET /2134567812we (127.0.0.1) 1.64ms
+2017-09-17 13:06:57,243 [WARNING] [20130] [MainThread] 404 GET /2134567812we (127.0.0.1) 1.43ms
+2017-09-17 13:07:18,528 [WARNING] [20130] [MainThread] 404 GET /de34531298076 (127.0.0.1) 2.14ms
+2017-09-17 13:07:34,154 [WARNING] [20130] [MainThread] 404 GET /de34531298076 (127.0.0.1) 4.10ms
+2017-09-17 13:07:44,900 [INFO] [20130] [MainThread] 200 GET /de3453129807 (127.0.0.1) 2265.46ms
+2017-09-17 13:08:20,554 [INFO] [20130] [MainThread] 200 GET /de3453129807 (127.0.0.1) 8.58ms
+2017-09-17 13:08:27,254 [INFO] [20140] [MainThread] Starting 4 processes
+2017-09-17 13:08:28,340 [INFO] [20147] [MainThread] 200 GET /de3453129807 (127.0.0.1) 12.18ms
+2017-09-17 13:09:00,332 [INFO] [20151] [MainThread] Starting 4 processes
+2017-09-17 13:09:00,769 [INFO] [20158] [MainThread] 200 GET /de3453129807 (127.0.0.1) 15.30ms
+2017-09-17 13:09:00,963 [INFO] [20158] [MainThread] 200 GET /js/jquery-1.11.1.min.js (127.0.0.1) 73.69ms
+2017-09-17 13:09:02,520 [WARNING] [20158] [MainThread] 405 GET /get_redirect?name=de3453129807&_=1505624941066 (127.0.0.1) 3.15ms
+2017-09-17 13:09:23,488 [INFO] [20161] [MainThread] Starting 4 processes
+2017-09-17 13:09:26,119 [INFO] [20166] [MainThread] 200 GET /de3453129807 (127.0.0.1) 22.54ms
+2017-09-17 13:09:26,202 [INFO] [20166] [MainThread] 200 GET /js/jquery-1.11.1.min.js (127.0.0.1) 45.41ms
+2017-09-17 13:09:27,257 [ERROR] [20166] [MainThread] get redirect error: OperationalError('(_mysql_exceptions.OperationalError) (2003, "Can\'t connect to MySQL server on \'127.0.0.1\' (61)")',)
+2017-09-17 13:09:27,262 [INFO] [20166] [MainThread] 200 GET /get_redirect?name=de3453129807&_=1505624966302 (127.0.0.1) 911.73ms
+2017-09-17 13:10:12,650 [INFO] [20174] [MainThread] Starting 4 processes
+2017-09-17 13:10:15,105 [INFO] [20179] [MainThread] 200 GET /de3453129807 (127.0.0.1) 19.02ms
+2017-09-17 13:10:15,173 [INFO] [20179] [MainThread] 200 GET /js/jquery-1.11.1.min.js (127.0.0.1) 45.99ms
+2017-09-17 13:10:16,042 [ERROR] [20179] [MainThread] get redirect error: OperationalError('(_mysql_exceptions.OperationalError) (2003, "Can\'t connect to MySQL server on \'127.0.0.1\' (61)")',)
+2017-09-17 13:10:16,048 [INFO] [20179] [MainThread] 200 GET /get_redirect?name=de3453129807&_=1505625015236 (127.0.0.1) 785.36ms
