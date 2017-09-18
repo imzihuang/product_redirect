@@ -29,7 +29,8 @@ def api_handlers():
         ('/get_data', api.DataRedirectHandler),
         ('/del_data', api.DelRedirectHandler),
         ('/add_data', api.AddRedirectHandler),
-        ('/verify_auth', api.AuthHandler)
+        ('/verify_auth', api.AuthHandler),
+        ('/logout_auth', api.LogoutHandler)
     ]
 
 class My_Application(Application):

@@ -25,6 +25,19 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Redirect</a>
+          <form class="navbar-form navbar-right">
+            {%if user_name%}
+              <div class="form-group">
+                 <a class="button track-login">{{ user_name }}</a>
+             </div>
+             <button class="btn btn-default" onclick="logout()">注销</button>
+            {%else%}
+            <div class="form-group">
+              <input id="auth_code" type="text" class="form-control" placeholder="verify_code">
+            </div>
+            <button class="btn btn-default" onclick="verify_code()">登录</button>
+            {% end %}
+          </form>
         </div>
       </div>
     </nav>
@@ -210,7 +223,38 @@
         });
     }
 
+    function verify_code() {
+        var code = $("#auth_code").val();
+        $.ajax({
+           type: "POST",
+           cache:false,
+           async : true,
+           dataType : "json",
+           url:  "/verify_auth",
+           data: {"verify_code": code},
+           success: function(data){
+               if (data.state == "0"){
+                    location.reload();
+               }
+           }
+        });
+    }
 
+    function logout() {
+        $.ajax({
+           type: "POST",
+           cache:false,
+           async : true,
+           dataType : "json",
+           url:  "/logout_auth",
+           data: {},
+           success: function(data){
+               if (data.state == "0"){
+                    location.reload();
+               }
+           }
+        });
+    }
 
 </script>
 </html>

@@ -66,3 +66,11 @@ class AuthHandler(RequestHandler):
         # 设置cookie
         self.set_secure_cookie("user_name", "admin", expires=time.time() + float(3600))
         self.finish(json.dumps({'state': 0, 'message': 'ok'}))
+
+class LogoutHandler(RequestHandler):
+    def post(self):
+        try:
+            self.clear_cookie("user_name")
+            self.finish(json.dumps({'state': 0, 'message': 'logout ok'}))
+        except Exception:
+            self.finish(json.dumps({'state': 1, 'message': 'logout faild'}))

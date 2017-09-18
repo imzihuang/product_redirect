@@ -30,7 +30,7 @@ class HomeHandler(tornado.web.RequestHandler):
     def get(self):
         #real_ip = self.request.headers.get("x-real-ip", self.request.headers.get("x-forwarded-for", ""))
 
-        self.render('manage.html')
+        self.render('manage.html', user_name=self.get_secure_cookie('user_name'))
 
 class AuthHandler(tornado.web.RequestHandler):
     def initialize(self, static_path, templates_path, **kwds):
