@@ -5,7 +5,12 @@ import time
 import json
 from random import randint
 from logic import add_redirect, get_redirect, get_redirect_info, del_redirect
+from base import verify_api_login
+from common.ini_client import ini_load
 
+ser_conf = ini_load('config/service.ini')
+ser_dic_con = ser_conf.get_fields('auth')
+auth_code = ser_dic_con.get("code")
 
 
 class RedirectHandler(RequestHandler):
@@ -28,6 +33,7 @@ class DataRedirectHandler(RequestHandler):
         self.finish(json.dumps({ "total": count, "rows": results}))
 
 class DelRedirectHandler(RequestHandler):
+    @verify_api_login
     def post(self, *args, **kwargs):
         name = self.get_argument("name", "")
         _ = del_redirect(name)
@@ -38,6 +44,7 @@ class DelRedirectHandler(RequestHandler):
 
 
 class AddRedirectHandler(RequestHandler):
+    @verify_api_login
     def post(self, *args, **kwargs):
         url = self.get_argument("url", "")
         parameter = self.get_argument("parameter", "")
@@ -48,4 +55,14 @@ class AddRedirectHandler(RequestHandler):
         if not _:
             self.finish(json.dumps({'state': 2, 'message': 'add failed'}))
             return
+        self.finish(json.dumps({'state': 0, 'message': 'ok'}))
+
+class AuthHandler(RequestHandler):
+    def post(self):
+        verify_code = self.get_argument("verify_code", "")
+        if verify_code != auth_code:
+            self.finish(json.dumps({'state': 1, 'message': 'faild'}))
+            return
+        # 设置cookie
+        self.set_secure_cookie("user_name", "admin", expires=time.time() + float(3600))
         self.finish(json.dumps({'state': 0, 'message': 'ok'}))
