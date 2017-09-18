@@ -30,12 +30,12 @@
               <div class="form-group">
                  <a class="button track-login">{{ user_name }}</a>
              </div>
-             <button class="btn btn-default" onclick="logout()">注销</button>
+             <button type="button" class="btn btn-default" onclick="logout()">注销</button>
             {%else%}
             <div class="form-group">
               <input id="auth_code" type="text" class="form-control" placeholder="verify_code">
             </div>
-            <button class="btn btn-default" onclick="verify_code()">登录</button>
+            <button type="button" class="btn btn-default" onclick="verify_code()">登录</button>
             {% end %}
           </form>
         </div>
