@@ -225,6 +225,9 @@
 
     function verify_code() {
         var code = $("#auth_code").val();
+        if (code == undefined || code == null || code == ""){
+            return false;
+        }
         $.ajax({
            type: "POST",
            cache:false,
