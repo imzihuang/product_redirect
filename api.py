@@ -24,7 +24,7 @@ class RedirectHandler(RequestHandler):
         l_params = params.split("&")
         ie_index = len(l_params)
         try:
-            ie_index = l_params.insert("ie=UTF8")
+            ie_index = l_params.index("ie=UTF8")
         except Exception as ex:
             pass
         l_params.insert(ie_index, "qid=" + str(int(time.time()) + 5))
