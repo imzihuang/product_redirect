@@ -20,7 +20,7 @@ class RedirectHandler(RequestHandler):
             self.finish(json.dumps({'state': 1, 'message': 'name is none'}))
             return
         _ = get_redirect_info(name)
-        params = _.get("params", "")
+        params = _.get("parameter", "")
         l_params = params.split("&")
         ie_index = len(l_params)
         try:
@@ -28,7 +28,7 @@ class RedirectHandler(RequestHandler):
         except Exception as ex:
             pass
         l_params.insert(ie_index, "qid=" + str(int(time.time()) + 5))
-        _.update({"params": "&".join(l_params)})
+        _.update({"parameter": "&".join(l_params)})
         #_.update({"cur_time": int(time.time())+5})
         self.finish(json.dumps({'state': 0, 'message': 'ok', 'redirect_info': _}))
 
