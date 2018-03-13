@@ -25,10 +25,10 @@
            data: {"name": red_value},
            success: function(data){
                 var url = data.redirect_info.url;
-                var cur_time = data.redirect_info.cur_time;
+                //var cur_time = data.redirect_info.cur_time;
                 var params = data.redirect_info.parameter;
 
-                var redirect_url = url+"?qid="+cur_time+params;
+                var redirect_url = url+"?"+params;
                 location.href = redirect_url;
            }
         });
